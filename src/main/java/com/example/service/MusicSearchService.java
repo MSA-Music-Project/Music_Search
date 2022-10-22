@@ -27,7 +27,7 @@ public class MusicSearchService {
 	@Retry(name="searchBackend", fallbackMethod="searchBackup")
 	public List<MusicSearchReturn> search(String s){
 		
-		URI uri = URI.create("http://localhost:9000/review/all"); //make a controller method @GetMapping in MusicReiviewService
+		URI uri = URI.create("http://gateway:9000/review/all"); //make a controller method @GetMapping in MusicReiviewService
 		
 		MusicReview[] allReviews = restTemplate.getForObject(uri, MusicReview[].class);
 		

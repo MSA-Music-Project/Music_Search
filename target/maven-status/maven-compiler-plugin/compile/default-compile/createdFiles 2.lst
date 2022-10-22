@@ -1,6 +1,0 @@
-com/example/config/ConfigureRestTemplate.class
-com/example/controllers/MusicSearchController.class
-com/example/service/MusicSearchService.class
-com/example/MusicSearchApplication.class
-com/example/dtos/MusicSearchReturn.class
-com/example/models/MusicReview.class
